@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime | Fondo de Inversión</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#inicio" aria-label="Prime inicio">
+        <span class="brand__mark">P</span>
+        <span class="brand__text">Prime</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#fondos">Fondos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <a class="btn btn--outline" href="#clientes">Acceso clientes</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Fondo de inversión Prime</p>
+          <h1>Invierte con estrategia, seguimiento y claridad.</h1>
+          <p class="hero__lead">Prime reúne capital de inversionistas para administrarlo en portafolios diversificados, con información clara de capital, rendimiento e interés generado.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#servicios">Conoce los servicios</a>
+            <a class="btn btn--ghost" href="#clientes">Ver demo de cliente</a>
+          </div>
+          <div class="trust-row" aria-label="Indicadores de confianza">
+            <span>Administración profesional</span>
+            <span>Diversificación</span>
+            <span>Reportes digitales</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Resumen Prime">
+          <div class="hero-card__top">
+            <span>Portafolio Prime Balance</span>
+            <strong>+8.42%</strong>
+          </div>
+          <div class="chart" aria-hidden="true">
+            <span style="height:42%"></span>
+            <span style="height:58%"></span>
+            <span style="height:46%"></span>
+            <span style="height:70%"></span>
+            <span style="height:62%"></span>
+            <span style="height:84%"></span>
+            <span style="height:78%"></span>
+          </div>
+          <div class="metric-grid">
+            <div>
+              <small>Capital administrado</small>
+              <b>$24.8M</b>
+            </div>
+            <div>
+              <small>Clientes activos</small>
+              <b>1,284</b>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Servicios</p>
+          <h2>Soluciones para hacer crecer tu patrimonio</h2>
+          <p>Diseñamos alternativas para diferentes perfiles de inversionista, desde alta liquidez hasta estrategias de crecimiento.</p>
+        </div>
+        <div class="cards cards--services">
+          <article class="card">
+            <span class="card__icon">01</span>
+            <h3>Administración de portafolio</h3>
+            <p>Distribución de recursos entre instrumentos de deuda, renta variable y liquidez según el perfil del cliente.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon">02</span>
+            <h3>Asesoría personalizada</h3>
+            <p>Acompañamiento para definir objetivos, horizonte de inversión y tolerancia al riesgo.</p>
+          </article>
+          <article class="card">
+            <span class="card__icon">03</span>
+            <h3>Monitoreo y reportes</h3>
+            <p>Panel de cliente con capital, interés generado, rendimiento estimado y actividad reciente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="fondos" class="section section--muted">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Fondos Prime</p>
+          <h2>Elige una estrategia de inversión</h2>
+        </div>
+        <div class="fund-grid">
+          <article class="fund-card">
+            <div class="fund-card__badge">Alta liquidez</div>
+            <h3>Prime Liquidez</h3>
+            <p>Para inversionistas que buscan disponibilidad y bajo nivel de volatilidad.</p>
+            <a href="#clientes">Me interesa</a>
+          </article>
+          <article class="fund-card featured">
+            <div class="fund-card__badge">Balanceado</div>
+            <h3>Prime Balance</h3>
+            <p>Combinación entre estabilidad y crecimiento con diversificación por activo.</p>
+            <a href="#clientes">Me interesa</a>
+          </article>
+          <article class="fund-card">
+            <div class="fund-card__badge">Crecimiento</div>
+            <h3>Prime Growth</h3>
+            <p>Enfocado en oportunidades de mayor horizonte y potencial de rendimiento.</p>
+            <a href="#clientes">Me interesa</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section benefits">
+      <div class="container benefits__grid">
+        <div>
+          <p class="eyebrow">Beneficios</p>
+          <h2>Una experiencia simple para invertir mejor</h2>
+          <p>Prime prioriza claridad, acompañamiento y acceso digital a la información de tu inversión.</p>
+        </div>
+        <ul class="benefit-list">
+          <li><strong>Crecimiento:</strong> alternativas diseñadas para distintos objetivos patrimoniales.</li>
+          <li><strong>Experiencia:</strong> orientación para tomar decisiones informadas.</li>
+          <li><strong>Diversificación:</strong> exposición a diferentes instrumentos para administrar riesgo.</li>
+          <li><strong>Flexibilidad:</strong> estrategias pensadas para distintos plazos y perfiles.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clientes" class="section section--client">
+      <div class="container client-grid">
+        <div class="login-card">
+          <p class="eyebrow">Acceso para clientes</p>
+          <h2>Consulta tu inversión</h2>
+          <p>Demo funcional con datos simulados. Ingresa cualquier usuario y contraseña para ver el panel.</p>
+          <form id="loginForm" class="login-form">
+            <label>
+              Usuario
+              <input type="text" id="user" placeholder="cliente@prime.mx" required>
+            </label>
+            <label>
+              Contraseña
+              <input type="password" id="password" placeholder="••••••••" required>
+            </label>
+            <button class="btn btn--primary" type="submit">Entrar al panel</button>
+          </form>
+        </div>
+
+        <div id="dashboard" class="dashboard" aria-live="polite">
+          <div class="dashboard__header">
+            <div>
+              <span>Bienvenido</span>
+              <h3 id="clientName">Cliente Prime</h3>
+            </div>
+            <button id="resetDemo" class="link-button" type="button">Reiniciar</button>
+          </div>
+          <div class="balance-card">
+            <small>Valor total de inversión</small>
+            <strong id="totalValue">$0.00</strong>
+          </div>
+          <div class="dashboard__metrics">
+            <div>
+              <small>Capital inicial</small>
+              <b id="capitalValue">$0.00</b>
+            </div>
+            <div>
+              <small>Interés generado</small>
+              <b id="interestValue">$0.00</b>
+            </div>
+            <div>
+              <small>Rendimiento anual estimado</small>
+              <b id="rateValue">0%</b>
+            </div>
+          </div>
+          <div class="activity">
+            <h4>Actividad reciente</h4>
+            <p>Abono mensual programado: <strong>$5,000.00</strong></p>
+            <p>Último corte: <strong>24 de abril de 2026</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="preguntas" class="section faq">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2>Información importante</h2>
+        </div>
+        <details>
+          <summary>¿Qué es un fondo de inversión?</summary>
+          <p>Es un vehículo que reúne recursos de diferentes inversionistas para administrarlos en instrumentos financieros de acuerdo con una estrategia.</p>
+        </details>
+        <details>
+          <summary>¿Los rendimientos están garantizados?</summary>
+          <p>No. Toda inversión tiene riesgos y los rendimientos pueden variar según el mercado y la estrategia elegida.</p>
+        </details>
+        <details>
+          <summary>¿Este sitio está conectado a datos reales?</summary>
+          <p>No. Esta maqueta es demostrativa; el acceso de clientes usa datos simulados en JavaScript.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <strong>Prime</strong>
+      <p>La información de esta página es demostrativa y no constituye asesoría financiera ni oferta de inversión.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
