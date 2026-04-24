@@ -6,22 +6,29 @@
   <title>Portal Cliente | Prime</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="client-page">
 
-  <header class="site-header">
-    <nav class="navbar">
-      <a href="index.html" class="logo">Prime</a>
-      <a href="index.html" class="nav-link">Cerrar sesión</a>
+  <header class="client-header">
+    <nav class="client-nav">
+      <a href="index.html" class="client-logo">Prime</a>
+      <a href="index.html" class="logout-button">Cerrar sesión</a>
     </nav>
   </header>
 
-  <main class="client-dashboard">
-    <section class="dashboard-hero">
+  <section class="client-hero">
+    <div class="client-hero-content">
+      <span class="client-badge">Portal de inversión</span>
       <h1>Bienvenido al Portal de Cliente</h1>
-      <p>Consulta el resumen actualizado de tu inversión.</p>
-    </section>
+      <p>
+        Consulta el resumen actualizado de tu inversión, capital disponible,
+        interés generado y rendimiento anual estimado.
+      </p>
+    </div>
+  </section>
 
-    <section class="dashboard-cards">
+  <main class="client-dashboard">
+
+    <section class="dashboard-grid">
       <article class="dashboard-card">
         <h3>Capital invertido</h3>
         <p class="dashboard-amount">$185,000 MXN</p>
@@ -29,7 +36,7 @@
 
       <article class="dashboard-card">
         <h3>Interés generado</h3>
-        <p class="dashboard-amount">$15,577 MXN</p>
+        <p class="dashboard-amount positive">$15,577 MXN</p>
       </article>
 
       <article class="dashboard-card">
@@ -42,6 +49,56 @@
         <p class="dashboard-amount">8.42%</p>
       </article>
     </section>
+
+    <section class="dashboard-panel">
+      <h2>Resumen de inversión</h2>
+
+      <div class="investment-row">
+        <div>
+          <p class="investment-label">Fondo contratado</p>
+          <p class="investment-value">Prime Rendimiento Plus</p>
+        </div>
+
+        <div>
+          <p class="investment-label">Perfil</p>
+          <p class="investment-value">Moderado</p>
+        </div>
+
+        <div>
+          <p class="investment-label">Estatus</p>
+          <p class="investment-value">Activo</p>
+        </div>
+      </div>
+
+      <div class="investment-row">
+        <div>
+          <p class="investment-label">Fecha de apertura</p>
+          <p class="investment-value">15 enero 2026</p>
+        </div>
+
+        <div>
+          <p class="investment-label">Plazo sugerido</p>
+          <p class="investment-value">12 meses</p>
+        </div>
+
+        <div>
+          <p class="investment-label">Riesgo</p>
+          <p class="investment-value">Medio</p>
+        </div>
+      </div>
+
+      <div class="progress-area">
+        <div class="progress-title">
+          <span>Meta anual de rendimiento</span>
+          <span>72%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
 </body>
