@@ -34,11 +34,10 @@ function showDashboard(userName) {
   dashboard.classList.add('is-visible');
 }
 
-loginForm.addEventListener('submit', (event) => {
+loginForm.addEventListener("submit", function (event) {
   event.preventDefault();
-  const user = document.querySelector('#user').value.trim();
-  const displayName = user ? user.split('@')[0].replace(/[._-]/g, ' ') : 'Cliente Prime';
-  showDashboard(displayName);
+
+  window.location.href = "cliente.html";
 });
 
 resetDemo.addEventListener('click', () => {
